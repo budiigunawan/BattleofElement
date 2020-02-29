@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Battle of Element</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Battle of Element</h1>
+
+    <div class="container">
+        <div class="box-game">
+            <div class="area-komputer">
+                <img src="img/water.png" class="img-computer">
+            </div>
+            
+            <div class="info"></div>
+            
+            <div class="area-player">
+                <ul>
+                    <li>
+                        <img src="img/fire.png" class="fire">
+                    </li>
+                    <li>
+                        <img src="img/water.png" class="water">
+                    </li>
+                    <li>
+                        <img src="img/earth.png" class="earth">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="box-score">
+            <div class="header">SCORE</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Computer</th>
+                        <th>Player</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th id="computer-score">0</th>
+                        <th id="player-score">0</th>
+                    </tr>
+                    <tr>
+                        <td id="computer-gif" height="100"></td>
+                        <td id="player-gif" height="100"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
