@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    background-image: url(../img/bg.png);
+    background-image: url(img/bg.png);
     font-family: 'Montserrat', sans-serif;
 }
 ol, ul {
